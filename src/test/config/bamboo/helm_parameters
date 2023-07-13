@@ -18,6 +18,7 @@ INGRESS_DOMAIN_KITT=${kitt.ingress.domain}
 TARGET_REPLICA_COUNT=1
 DB_INIT_SCRIPT_FILE=${db.init.script.file}
 HELM_DEBUG=${helm.debug}
+ATL_BROKER_URI=ssl://0.0.0.0:54663
 
 # Bamboo pre-seed values. We also require BAMBOO_ADMIN_PASSWORD and BAMBOO_LICENSE.
 
